@@ -294,10 +294,10 @@ step through instructions, view Assembly outputs and use breakpoints in
 code.</p>
 <h2 id="gallery">Gallery</h2>
 <p>Some simple terrain generation using basic perlin noise. <img
-src="/images/minecraft_clone_basic_terrain.png" /> Differnt textured
+src="/images/minecraft_clone_basic_terrain.png" alt="Simple terrain generated with basic Perlin noise" /> Differnt textured
 blocks can be rendered with each other. A sea of pink wool with some
 islands made of wood. <img
-src="/images/minecraft_clone_mixed_pink_sea.png" /> Blocks are culled
+src="/images/minecraft_clone_mixed_pink_sea.png" alt="Sea of pink wool with islands made of wood" /> Blocks are culled
 everywhere a player shouldn’t be able to see, in between two blocks,
 from the void of the world. <img
-src="/images/minecraft_clone_proof_of_culling.png" /></p>
+src="/images/minecraft_clone_proof_of_culling.png" alt="Proof of block culling from the void of the world" /></p>

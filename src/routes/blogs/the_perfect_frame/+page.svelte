@@ -47,11 +47,11 @@ two alone require dominion over many more facets of the client state,
 but first, what does a configure look like?</p>
 <p>Below is the signature of the function used to resize clients in <a
 href="https://gitlab.freedesktop.org/wlroots/wlroots">wlroots</a>.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+<span id="cb1-2">    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+<span id="cb1-3">    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+<span id="cb1-4">    <span class="dt">int32_t</span> height</span>
+<span id="cb1-5"><span class="op">);</span></span></code></pre></div>
 <p>The return value here is called the <em>configure serial</em>. When
 we make a call to <code>wlr_xdg_toplevel_set_size</code>, we immediately
 resize the client’s buffer in the compositor, while also sending a

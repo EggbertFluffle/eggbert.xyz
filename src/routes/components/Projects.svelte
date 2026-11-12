@@ -20,6 +20,10 @@
 			description="We’re a small team of passionate web designers, looking to bring you a standout web presence. Based out of Worcester MA, two students have made it their mission to make the web beautiful, starting with your online presence. No idea is too alien, just as no ambitions are out of reach."
 			link="https://byte.lunarflame.dev" />
 		<ProjectEntry 
+			name="Minecraft MITM" 
+			description="The tool utilizing pcap to capture packets over a network interface, parse the data according to the community documented protocol spec and build game context overtime presented to the attacker via a web UI."
+			link="https://github.com/EggbertFluffle/mc_mitm" />
+		<ProjectEntry 
 			name="Conductor" 
 			description="Conductor is a DSL designed to unify how we describe dynamic window management. It is intended to be platform agnostic meaning that, as long as a desktop platform implements and interface to Conductor, one snippet could work in any Wayland compositor just as it would on any X11 window manager."
 			link="https://github.com/EggbertFluffle/Conductor" />

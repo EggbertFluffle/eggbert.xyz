@@ -98,7 +98,9 @@
 		{#each blogs.slice(0, expanded ? blogs.length : 7) as blog (blog.raw)}
 			<li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
 		{/each}
-		<a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+		<li>
+			<button type="button" on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</button>
+		</li>
 	</ul>
 </section>
 
@@ -115,12 +117,17 @@
 		
 	}
 
-	ul > a {
+	ul button {
 		cursor: pointer;
 		font-size: 1.25rem;
+		font-family: inherit;
+		background: none;
+		border: none;
+		padding: 0;
+		color: var(--yellow);
 	}
 
-	ul > a:hover {
+	ul button:hover {
 		text-decoration: underline;
 	}
 

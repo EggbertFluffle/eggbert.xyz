@@ -120,8 +120,8 @@ The other lifesaver for this project was gdb or the GNU Project Debugger. This t
 ## Gallery
 
 Some simple terrain generation using basic perlin noise.
-![](/images/minecraft_clone_basic_terrain.png)
+![Simple terrain generated with basic Perlin noise](/images/minecraft_clone_basic_terrain.png)
 Differnt textured blocks can be rendered with each other. A sea of pink wool with some islands made of wood.
-![](/images/minecraft_clone_mixed_pink_sea.png)
+![Sea of pink wool with islands made of wood](/images/minecraft_clone_mixed_pink_sea.png)
 Blocks are culled everywhere a player shouldn't be able to see, in between two blocks, from the void of the world.
-![](/images/minecraft_clone_proof_of_culling.png)
+![Proof of block culling from the void of the world](/images/minecraft_clone_proof_of_culling.png)

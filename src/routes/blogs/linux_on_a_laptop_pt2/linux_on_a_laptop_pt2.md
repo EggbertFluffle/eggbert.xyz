@@ -64,5 +64,5 @@ This isn't all the key-binds. For example, I had to bind my volume controls to M
 
 But with this territory comes the slight annoyance of not being able to just give someone else your laptop, and they're familiar with what they're looking at. Using a web browser is about as compliant as it gets to operating another computer. I don't have to give my laptop to others often though, or maybe I haven't been at school long enough to need to.
 
-![](/images/general_void_dwm_desktop.png)
-![](/images/coding_pokemon_void_desktop.png)
+![General Void Linux DWM desktop](/images/general_void_dwm_desktop.png)
+![Coding Pokémon themed Void Linux desktop](/images/coding_pokemon_void_desktop.png)

@@ -40,44 +40,44 @@ presentation software.</p>
 <code>#set</code> and <code>#show</code> rules are for text sizing, and
 some other small style choices.</p>
 <div class="sourceCode" id="cb1"><pre
-class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+<span id="cb1-4"><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+<span id="cb1-5"><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+<span id="cb1-8"><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+<span id="cb1-9">  By: Harrison DiAmbrosio</span>
+<span id="cb1-10"><span class="op">]</span></span>
+<span id="cb1-11"></span>
+<span id="cb1-12"><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+<span id="cb1-13"></span>
+<span id="cb1-14"><span class="fu">== &gt; Where do we start?</span></span>
+<span id="cb1-15"></span>
+<span id="cb1-16">*There are three parts we need to keep track of*</span>
+<span id="cb1-17">+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+<span id="cb1-18">+ The desktop stack</span>
+<span id="cb1-19">+ Display / Output</span>
+<span id="cb1-20"></span>
+<span id="cb1-21"><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+<span id="cb1-22"></span>
+<span id="cb1-23"><span class="fu">= Chapter 1</span></span>
+<span id="cb1-24"><span class="fu">== _Clickity click clack_</span></span>
+<span id="cb1-25"></span>
+<span id="cb1-26"><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+<span id="cb1-27"></span>
+<span id="cb1-28"><span class="fu">== Clarifying Assumptions</span></span>
+<span id="cb1-29"></span>
+<span id="cb1-30">We assume the following:</span>
+<span id="cb1-31">+ Input devices communicate over *USB*</span>
+<span id="cb1-32">+ Output&#39;s communicate over *HDMI*</span>
+<span id="cb1-33">+ Using the *Linux* kernel</span>
+<span id="cb1-34">+ Using the *Wayland* protocol</span>
+<span id="cb1-35"></span>
+<span id="cb1-36">These assumptions are made for simplicity</span>
+<span id="cb1-37"></span>
+<span id="cb1-38">Fundamentally identical process in other environments</span></code></pre></div>
 <p><img src="/images/clicks_to_pix1.png"
 alt="First presentation slide" /> <img src="/images/clicks_to_pix2.png"
 alt="Second presentation slide" /> <img src="/images/clicks_to_pix3.png"

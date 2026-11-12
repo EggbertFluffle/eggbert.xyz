@@ -7,7 +7,7 @@
 	<ul>
 		<li>Resume: <a href="/HarrisonDiAmbrosio-Resume.pdf">HarrisonDiAmbrosio-Resume.pdf</a></li>
 		<li>Github: <a href="https://github.com/EggbertFluffle/">EggbertFluffle</a></li>
-		<li>E-Mail (personal): <a href="mailto:hdiambrosio@gmail.com">hdiambrosio@gmail.com</a></li>
+		<li>E-Mail (personal): <a href="mailto:hdiambrosio@eggbert.xyz">hdiambrosio@eggbert.xyz</a></li>
 		<li>E-Mail (school): <a href="mailto:hadiambrosio@wpi.edu">hadiambrosio@wpi.edu</a></li>
 		<li>JabberID: eggbert@eggbert.xyz</li>
 		<li>LinkedIn: <a href="https://www.linkedin.com/in/harrison-diambrosio-505443229/">Harrison DiAmbrosio</a></li>

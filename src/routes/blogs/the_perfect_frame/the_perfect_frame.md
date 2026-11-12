@@ -57,7 +57,7 @@ There are a couple more bits a pieces to this, like when manipulating the scene 
 2. Make a copy of all the client buffers, hide the clients, and show the copies
 3. Apply pending changes to all clients at once, only making the configure reliant changes (resize, fullscreen, etc.)
 4. Wait for all clients to acknowledge all of their configures
-5. Apply all the sending changes, only making the configure independant changes (position, enabled/disabled, etc.)
+5. Apply all the sending changes, only making the configure independent changes (position, enabled/disabled, etc.)
 6. Show the true client buffers and delete the old buffer copies
 7. Repeat
 

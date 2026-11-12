@@ -1,0 +1,1121 @@
+[0m[2m[35m$[0m [2m[1mvite build[0m
+[33m3:01:45 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/linux_on_a_laptop_pt2/+page.svelte:206:3 A11y: <img> element should have an alt attribute[39m
+204: often though, or maybe I haven’t been at school long enough to need
+205: to.</p>
+206: <p><img src="/images/general_void_dwm_desktop.png" /> <img
+        ^
+207: src="/images/coding_pokemon_void_desktop.png" /></p>
+208: 
+[33m3:01:45 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/linux_on_a_laptop_pt2/+page.svelte:206:54 A11y: <img> element should have an alt attribute[39m
+204: often though, or maybe I haven’t been at school long enough to need
+205: to.</p>
+206: <p><img src="/images/general_void_dwm_desktop.png" /> <img
+                                                           ^
+207: src="/images/coding_pokemon_void_desktop.png" /></p>
+208: 
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:296:60 A11y: <img> element should have an alt attribute[39m
+294: code.</p>
+295: <h2 id="gallery">Gallery</h2>
+296: <p>Some simple terrain generation using basic perlin noise. <img
+                                                                 ^
+297: src="/images/minecraft_clone_basic_terrain.png" /> Differnt textured
+298: blocks can be rendered with each other. A sea of pink wool with some
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:299:22 A11y: <img> element should have an alt attribute[39m
+297: src="/images/minecraft_clone_basic_terrain.png" /> Differnt textured
+298: blocks can be rendered with each other. A sea of pink wool with some
+299: islands made of wood. <img
+                           ^
+300: src="/images/minecraft_clone_mixed_pink_sea.png" /> Blocks are culled
+301: everywhere a player shouldn’t be able to see, in between two blocks,
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:302:28 A11y: <img> element should have an alt attribute[39m
+300: src="/images/minecraft_clone_mixed_pink_sea.png" /> Blocks are culled
+301: everywhere a player shouldn’t be able to see, in between two blocks,
+302: from the void of the world. <img
+                                 ^
+303: src="/images/minecraft_clone_proof_of_culling.png" /></p>
+304: 
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:43:73 A11y: <a> element should have child content[39m
+41: some other small style choices.</p>
+42: <div class="sourceCode" id="cb1"><pre
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+                                                                             ^
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:44:17 A11y: <a> element should have child content[39m
+42: <div class="sourceCode" id="cb1"><pre
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:45:17 A11y: <a> element should have child content[39m
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+                     ^
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:46:17 A11y: <a> element should have child content[39m
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+                     ^
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:47:17 A11y: <a> element should have child content[39m
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+                     ^
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:48:17 A11y: <a> element should have child content[39m
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:49:17 A11y: <a> element should have child content[39m
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+                     ^
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:50:17 A11y: <a> element should have child content[39m
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+                     ^
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:51:17 A11y: <a> element should have child content[39m
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+                     ^
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:52:18 A11y: <a> element should have child content[39m
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+                      ^
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:53:18 A11y: <a> element should have child content[39m
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:54:18 A11y: <a> element should have child content[39m
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:55:18 A11y: <a> element should have child content[39m
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:56:18 A11y: <a> element should have child content[39m
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+                      ^
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:57:18 A11y: <a> element should have child content[39m
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:58:18 A11y: <a> element should have child content[39m
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+                      ^
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:59:18 A11y: <a> element should have child content[39m
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+                      ^
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:60:18 A11y: <a> element should have child content[39m
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+                      ^
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:61:18 A11y: <a> element should have child content[39m
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+                      ^
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:62:18 A11y: <a> element should have child content[39m
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:63:18 A11y: <a> element should have child content[39m
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:64:18 A11y: <a> element should have child content[39m
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:65:18 A11y: <a> element should have child content[39m
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+                      ^
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:66:18 A11y: <a> element should have child content[39m
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+                      ^
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:67:18 A11y: <a> element should have child content[39m
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:68:18 A11y: <a> element should have child content[39m
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:69:18 A11y: <a> element should have child content[39m
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:70:18 A11y: <a> element should have child content[39m
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+                      ^
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:71:18 A11y: <a> element should have child content[39m
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:72:18 A11y: <a> element should have child content[39m
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+                      ^
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:73:18 A11y: <a> element should have child content[39m
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+                      ^
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:74:18 A11y: <a> element should have child content[39m
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+                      ^
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:75:18 A11y: <a> element should have child content[39m
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+                      ^
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:76:18 A11y: <a> element should have child content[39m
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+                      ^
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:77:18 A11y: <a> element should have child content[39m
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:78:18 A11y: <a> element should have child content[39m
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+                      ^
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:79:18 A11y: <a> element should have child content[39m
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+81: <p><img src="/images/clicks_to_pix1.png"
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:80:18 A11y: <a> element should have child content[39m
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+                      ^
+81: <p><img src="/images/clicks_to_pix1.png"
+82: alt="First presentation slide" /> <img src="/images/clicks_to_pix2.png"
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:50:103 A11y: <a> element should have child content[39m
+48: <p>Below is the signature of the function used to resize clients in <a
+49: href="https://gitlab.freedesktop.org/wlroots/wlroots">wlroots</a>.</p>
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+                                                                                                           ^
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:51:17 A11y: <a> element should have child content[39m
+49: href="https://gitlab.freedesktop.org/wlroots/wlroots">wlroots</a>.</p>
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+                     ^
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:52:17 A11y: <a> element should have child content[39m
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+                     ^
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:53:17 A11y: <a> element should have child content[39m
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+                     ^
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+55: <p>The return value here is called the <em>configure serial</em>. When
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:54:17 A11y: <a> element should have child content[39m
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+                     ^
+55: <p>The return value here is called the <em>configure serial</em>. When
+56: we make a call to <code>wlr_xdg_toplevel_set_size</code>, we immediately
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:61:69 A11y: <a> element should have child content[39m
+59: is a wall, the number of each wall comes in later for texturing.</p>
+60: <div class="sourceCode" id="cb1"><pre
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+                                                                         ^
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:62:17 A11y: <a> element should have child content[39m
+60: <div class="sourceCode" id="cb1"><pre
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:63:17 A11y: <a> element should have child content[39m
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+                     ^
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:64:17 A11y: <a> element should have child content[39m
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:65:17 A11y: <a> element should have child content[39m
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+                     ^
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:66:17 A11y: <a> element should have child content[39m
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:67:17 A11y: <a> element should have child content[39m
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+                     ^
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+69: <p>First comes the initial calls to cast rays and as well as collect
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:68:17 A11y: <a> element should have child content[39m
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+                     ^
+69: <p>First comes the initial calls to cast rays and as well as collect
+70: their distances and a few other bits of data.</p>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:72:69 A11y: <a> element should have child content[39m
+70: their distances and a few other bits of data.</p>
+71: <div class="sourceCode" id="cb2"><pre
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+                                                                         ^
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:73:17 A11y: <a> element should have child content[39m
+71: <div class="sourceCode" id="cb2"><pre
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+                     ^
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:74:17 A11y: <a> element should have child content[39m
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:75:17 A11y: <a> element should have child content[39m
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:76:17 A11y: <a> element should have child content[39m
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+                     ^
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:77:17 A11y: <a> element should have child content[39m
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:78:17 A11y: <a> element should have child content[39m
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:79:17 A11y: <a> element should have child content[39m
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+                     ^
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:80:17 A11y: <a> element should have child content[39m
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:81:18 A11y: <a> element should have child content[39m
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:82:18 A11y: <a> element should have child content[39m
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+                      ^
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+84: <p>And <code>player::TakePerspectives</code> simply casts a ray for each
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:83:18 A11y: <a> element should have child content[39m
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+                      ^
+84: <p>And <code>player::TakePerspectives</code> simply casts a ray for each
+85: pixel in the width of the screen and linearly interpolates (lerps)
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:93:69 A11y: <a> element should have child content[39m
+91: <code>map</code>, <code>mapWidth</code>, and <code>mapHeight</code>.</p>
+92: <div class="sourceCode" id="cb3"><pre
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+                                                                         ^
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:94:17 A11y: <a> element should have child content[39m
+92: <div class="sourceCode" id="cb3"><pre
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+                     ^
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:95:17 A11y: <a> element should have child content[39m
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+                     ^
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:96:17 A11y: <a> element should have child content[39m
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+                     ^
+97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:97:17 A11y: <a> element should have child content[39m
+ 95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+ 96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+                      ^
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:98:17 A11y: <a> element should have child content[39m
+ 96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+                      ^
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:99:17 A11y: <a> element should have child content[39m
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+                      ^
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:100:17 A11y: <a> element should have child content[39m
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+                      ^
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+102: <h2 id="about-raycasting">About Raycasting</h2>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:101:17 A11y: <a> element should have child content[39m
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+                      ^
+102: <h2 id="about-raycasting">About Raycasting</h2>
+103: <p>The actual raycasting is the true meat of this program. There were
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: <a> with click handler must have an ARIA role[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>
+[33m3:01:46 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: <a> element should have an href attribute[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/linux_on_a_laptop_pt2/+page.svelte:206:3 A11y: <img> element should have an alt attribute[39m
+204: often though, or maybe I haven’t been at school long enough to need
+205: to.</p>
+206: <p><img src="/images/general_void_dwm_desktop.png" /> <img
+        ^
+207: src="/images/coding_pokemon_void_desktop.png" /></p>
+208: 
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/linux_on_a_laptop_pt2/+page.svelte:206:54 A11y: <img> element should have an alt attribute[39m
+204: often though, or maybe I haven’t been at school long enough to need
+205: to.</p>
+206: <p><img src="/images/general_void_dwm_desktop.png" /> <img
+                                                           ^
+207: src="/images/coding_pokemon_void_desktop.png" /></p>
+208: 
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:296:60 A11y: <img> element should have an alt attribute[39m
+294: code.</p>
+295: <h2 id="gallery">Gallery</h2>
+296: <p>Some simple terrain generation using basic perlin noise. <img
+                                                                 ^
+297: src="/images/minecraft_clone_basic_terrain.png" /> Differnt textured
+298: blocks can be rendered with each other. A sea of pink wool with some
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:299:22 A11y: <img> element should have an alt attribute[39m
+297: src="/images/minecraft_clone_basic_terrain.png" /> Differnt textured
+298: blocks can be rendered with each other. A sea of pink wool with some
+299: islands made of wood. <img
+                           ^
+300: src="/images/minecraft_clone_mixed_pink_sea.png" /> Blocks are culled
+301: everywhere a player shouldn’t be able to see, in between two blocks,
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/minecraft_clone/+page.svelte:302:28 A11y: <img> element should have an alt attribute[39m
+300: src="/images/minecraft_clone_mixed_pink_sea.png" /> Blocks are culled
+301: everywhere a player shouldn’t be able to see, in between two blocks,
+302: from the void of the world. <img
+                                 ^
+303: src="/images/minecraft_clone_proof_of_culling.png" /></p>
+304: 
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:43:73 A11y: <a> element should have child content[39m
+41: some other small style choices.</p>
+42: <div class="sourceCode" id="cb1"><pre
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+                                                                             ^
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:44:17 A11y: <a> element should have child content[39m
+42: <div class="sourceCode" id="cb1"><pre
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:45:17 A11y: <a> element should have child content[39m
+43: class="sourceCode typst"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">page</span><span class="op">(</span>width<span class="op">:</span> <span class="fl">340mm</span><span class="op">,</span> height<span class="op">:</span> <span class="fl">220mm</span><span class="op">)</span></span>
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+                     ^
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:46:17 A11y: <a> element should have child content[39m
+44: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+                     ^
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:47:17 A11y: <a> element should have child content[39m
+45: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">#set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2.5em</span><span class="op">)</span></span>
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+                     ^
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:48:17 A11y: <a> element should have child content[39m
+46: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">1</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">2em</span><span class="op">)</span></span>
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:49:17 A11y: <a> element should have child content[39m
+47: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">#show</span> heading<span class="op">.</span>where<span class="op">(</span>level<span class="op">:</span> <span class="dv">2</span><span class="op">):</span> <span class="kw">set</span> <span class="va">text</span><span class="op">(</span>size<span class="op">:</span> <span class="fl">1.25em</span><span class="op">)</span></span>
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+                     ^
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:50:17 A11y: <a> element should have child content[39m
+48: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+                     ^
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:51:17 A11y: <a> element should have child content[39m
+49: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>align<span class="op">(</span>horizon<span class="op">)[</span></span>
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+                     ^
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:52:18 A11y: <a> element should have child content[39m
+50: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">  = `Clicks` $arrow$ #text(red)[P]#text(green)[i]#text(blue)[x] \</span></span>
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+                      ^
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:53:18 A11y: <a> element should have child content[39m
+51: <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  By: Harrison DiAmbrosio</span>
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:54:18 A11y: <a> element should have child content[39m
+52: <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">]</span></span>
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:55:18 A11y: <a> element should have child content[39m
+53: <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:56:18 A11y: <a> element should have child content[39m
+54: <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+                      ^
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:57:18 A11y: <a> element should have child content[39m
+55: <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:58:18 A11y: <a> element should have child content[39m
+56: <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">== &gt; Where do we start?</span></span>
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+                      ^
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:59:18 A11y: <a> element should have child content[39m
+57: <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+                      ^
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:60:18 A11y: <a> element should have child content[39m
+58: <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>*There are three parts we need to keep track of*</span>
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+                      ^
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:61:18 A11y: <a> element should have child content[39m
+59: <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>+ The peripherals (keyboard, mouse, laptop lids, etc.)</span>
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+                      ^
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:62:18 A11y: <a> element should have child content[39m
+60: <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>+ The desktop stack</span>
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:63:18 A11y: <a> element should have child content[39m
+61: <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>+ Display / Output</span>
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:64:18 A11y: <a> element should have child content[39m
+62: <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:65:18 A11y: <a> element should have child content[39m
+63: <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+                      ^
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:66:18 A11y: <a> element should have child content[39m
+64: <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+                      ^
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:67:18 A11y: <a> element should have child content[39m
+65: <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">= Chapter 1</span></span>
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:68:18 A11y: <a> element should have child content[39m
+66: <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">== _Clickity click clack_</span></span>
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+                      ^
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:69:18 A11y: <a> element should have child content[39m
+67: <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:70:18 A11y: <a> element should have child content[39m
+68: <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>pagebreak<span class="op">()</span></span>
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+                      ^
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:71:18 A11y: <a> element should have child content[39m
+69: <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:72:18 A11y: <a> element should have child content[39m
+70: <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">== Clarifying Assumptions</span></span>
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+                      ^
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:73:18 A11y: <a> element should have child content[39m
+71: <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+                      ^
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:74:18 A11y: <a> element should have child content[39m
+72: <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>We assume the following:</span>
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+                      ^
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:75:18 A11y: <a> element should have child content[39m
+73: <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>+ Input devices communicate over *USB*</span>
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+                      ^
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:76:18 A11y: <a> element should have child content[39m
+74: <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>+ Output&#39;s communicate over *HDMI*</span>
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+                      ^
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:77:18 A11y: <a> element should have child content[39m
+75: <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>+ Using the *Linux* kernel</span>
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:78:18 A11y: <a> element should have child content[39m
+76: <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>+ Using the *Wayland* protocol</span>
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+                      ^
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:79:18 A11y: <a> element should have child content[39m
+77: <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+81: <p><img src="/images/clicks_to_pix1.png"
+[33m3:01:47 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/presentations_in_typst/+page.svelte:80:18 A11y: <a> element should have child content[39m
+78: <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>These assumptions are made for simplicity</span>
+79: <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+80: <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Fundamentally identical process in other environments</span></code></pre></div>
+                      ^
+81: <p><img src="/images/clicks_to_pix1.png"
+82: alt="First presentation slide" /> <img src="/images/clicks_to_pix2.png"
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:50:103 A11y: <a> element should have child content[39m
+48: <p>Below is the signature of the function used to resize clients in <a
+49: href="https://gitlab.freedesktop.org/wlroots/wlroots">wlroots</a>.</p>
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+                                                                                                           ^
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:51:17 A11y: <a> element should have child content[39m
+49: href="https://gitlab.freedesktop.org/wlroots/wlroots">wlroots</a>.</p>
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+                     ^
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:52:17 A11y: <a> element should have child content[39m
+50: <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> wlr_xdg_toplevel_set_size<span class="op">(</span></span>
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+                     ^
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:53:17 A11y: <a> element should have child content[39m
+51: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">struct</span> wlr_xdg_toplevel <span class="op">*</span>toplevel<span class="op">,</span></span>
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+                     ^
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+55: <p>The return value here is called the <em>configure serial</em>. When
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/the_perfect_frame/+page.svelte:54:17 A11y: <a> element should have child content[39m
+52: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> width<span class="op">,</span></span>
+53: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int32_t</span> height</span>
+54: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">);</span></span></code></pre></div>
+                     ^
+55: <p>The return value here is called the <em>configure serial</em>. When
+56: we make a call to <code>wlr_xdg_toplevel_set_size</code>, we immediately
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:61:69 A11y: <a> element should have child content[39m
+59: is a wall, the number of each wall comes in later for texturing.</p>
+60: <div class="sourceCode" id="cb1"><pre
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+                                                                         ^
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:62:17 A11y: <a> element should have child content[39m
+60: <div class="sourceCode" id="cb1"><pre
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:63:17 A11y: <a> element should have child content[39m
+61: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> map <span class="op">=</span> <span class="op">{"{"}</span></span>
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+                     ^
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:64:17 A11y: <a> element should have child content[39m
+62: <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:65:17 A11y: <a> element should have child content[39m
+63: <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+                     ^
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:66:17 A11y: <a> element should have child content[39m
+64: <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+                     ^
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:67:17 A11y: <a> element should have child content[39m
+65: <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span></span>
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+                     ^
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+69: <p>First comes the initial calls to cast rays and as well as collect
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:68:17 A11y: <a> element should have child content[39m
+66: <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span></span>
+67: <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">1</span></span>
+68: <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="op">};</span></span></code></pre></div>
+                     ^
+69: <p>First comes the initial calls to cast rays and as well as collect
+70: their distances and a few other bits of data.</p>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:72:69 A11y: <a> element should have child content[39m
+70: their distances and a few other bits of data.</p>
+71: <div class="sourceCode" id="cb2"><pre
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+                                                                         ^
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:73:17 A11y: <a> element should have child content[39m
+71: <div class="sourceCode" id="cb2"><pre
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+                     ^
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:74:17 A11y: <a> element should have child content[39m
+72: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// width is the screen width</span></span>
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:75:17 A11y: <a> element should have child content[39m
+73: <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> lines <span class="op">=</span> width<span class="op">;</span></span>
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:76:17 A11y: <a> element should have child content[39m
+74: <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> distances<span class="op">(</span>lines<span class="op">);</span></span>
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+                     ^
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:77:17 A11y: <a> element should have child content[39m
+75: <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:78:17 A11y: <a> element should have child content[39m
+76: <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">// The number assigned to the wall each ray collides with</span></span>
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+                     ^
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:79:17 A11y: <a> element should have child content[39m
+77: <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;</span> hits<span class="op">(</span>lines<span class="op">);</span></span>
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+                     ^
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:80:17 A11y: <a> element should have child content[39m
+78: <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+                     ^
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:81:18 A11y: <a> element should have child content[39m
+79: <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">// Important for texturing later</span></span>
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+                      ^
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:82:18 A11y: <a> element should have child content[39m
+80: <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;</span> uTexCoords<span class="op">(</span>lines<span class="op">);</span></span>
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+                      ^
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+84: <p>And <code>player::TakePerspectives</code> simply casts a ray for each
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:83:18 A11y: <a> element should have child content[39m
+81: <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+82: <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Cast rays and populate those lists with data</span></span>
+83: <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>player<span class="op">.</span>TakePerspective<span class="op">(&amp;</span>distances<span class="op">,</span> <span class="op">&amp;</span>hits<span class="op">,</span> <span class="op">&amp;</span>uTexCoords<span class="op">,</span> <span class="op">&amp;</span>map<span class="op">,</span> <span class="op">&amp;</span>scl<span class="op">,</span> <span class="op">&amp;</span>mapWidth<span class="op">,</span> <span class="op">&amp;</span>mapHeight<span class="op">);</span></span></code></pre></div>
+                      ^
+84: <p>And <code>player::TakePerspectives</code> simply casts a ray for each
+85: pixel in the width of the screen and linearly interpolates (lerps)
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:93:69 A11y: <a> element should have child content[39m
+91: <code>map</code>, <code>mapWidth</code>, and <code>mapHeight</code>.</p>
+92: <div class="sourceCode" id="cb3"><pre
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+                                                                         ^
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:94:17 A11y: <a> element should have child content[39m
+92: <div class="sourceCode" id="cb3"><pre
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+                     ^
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:95:17 A11y: <a> element should have child content[39m
+93: class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> Player<span class="op">::</span>TakePerspective<span class="op">(</span><span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> distances<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> hits<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">float</span><span class="op">&gt;*</span> uTexCoords<span class="op">,</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="dt">int</span><span class="op">&gt;*</span> map<span class="op">,</span> <span class="at">const</span> <span class="dt">float</span><span class="op">*</span> scl<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapWidth<span class="op">,</span> <span class="at">const</span> <span class="dt">int</span><span class="op">*</span> mapHeight<span class="op">)</span> <span class="op">{"{"}</span></span>
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+                     ^
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:96:17 A11y: <a> element should have child content[39m
+94: <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span><span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> distances<span class="op">-&gt;</span>size<span class="op">();</span> i<span class="op">++)</span> <span class="op">{"{"}</span></span>
+95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+                     ^
+97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:97:17 A11y: <a> element should have child content[39m
+ 95: <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        distances<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">)</span> <span class="op">=</span> RayCast<span class="op">(</span></span>
+ 96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+                      ^
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:98:17 A11y: <a> element should have child content[39m
+ 96: <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>            hits<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span> uTexCoords<span class="op">-&gt;</span>at<span class="op">(</span>i<span class="op">),</span></span>
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+                      ^
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:99:17 A11y: <a> element should have child content[39m
+ 97: <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            map<span class="op">,</span> scl<span class="op">,</span> mapWidth<span class="op">,</span> mapHeight<span class="op">,</span></span>
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+                      ^
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:100:17 A11y: <a> element should have child content[39m
+ 98: <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Angle each ray will travel at relative to the player&#39;s angle</span></span>
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+                      ^
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+102: <h2 id="about-raycasting">About Raycasting</h2>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/blogs/wolfenstein_terminal_raycaster/+page.svelte:101:17 A11y: <a> element should have child content[39m
+ 99: <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            lerp<span class="op">(</span>PI <span class="op">*</span> <span class="fl">0.25</span><span class="op">,</span> PI <span class="op">*</span> <span class="op">-</span><span class="fl">0.25</span><span class="op">,</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> i <span class="op">/</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span> distances<span class="op">-&gt;</span>size<span class="op">()));</span></span>
+100: <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+101: <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+                      ^
+102: <h2 id="about-raycasting">About Raycasting</h2>
+103: <p>The actual raycasting is the true meat of this program. There were
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: <a> with click handler must have an ARIA role[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>
+[33m3:01:48 PM [vite-plugin-svelte] /home/eggbert/programs/javascript/eggbert.xyz/src/routes/components/Blogs.svelte:98:2 A11y: <a> element should have an href attribute[39m
+ 96:       <li>{blog.date}: <a href={blog.raw}>{blog.name}</a></li>
+ 97:     {/each}
+ 98:     <a on:click={() => { expanded = !expanded }}>{expanded ? "See less" : "See more"}</a>
+         ^
+ 99:   </ul>
+100: </section>

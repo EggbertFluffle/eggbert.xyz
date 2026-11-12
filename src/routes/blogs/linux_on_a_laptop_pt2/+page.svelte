@@ -203,5 +203,5 @@ they’re looking at. Using a web browser is about as compliant as it gets
 to operating another computer. I don’t have to give my laptop to others
 often though, or maybe I haven’t been at school long enough to need
 to.</p>
-<p><img src="/images/general_void_dwm_desktop.png" /> <img
-src="/images/coding_pokemon_void_desktop.png" /></p>
+<p><img src="/images/general_void_dwm_desktop.png" alt="General Void Linux DWM desktop" /> <img
+src="/images/coding_pokemon_void_desktop.png" alt="Coding Pokémon themed Void Linux desktop" /></p>
